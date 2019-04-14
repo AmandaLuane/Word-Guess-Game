@@ -1,0 +1,91 @@
+
+body {
+    background-image: url(../images/maxresdefault.jpg);
+    background-size: auto;
+}
+
+.title {
+    color: blueviolet;
+    font-size: 112px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: -2px -2px 2px white;
+}
+
+.instructions {
+    color: white;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    font-weight: 30px;
+    text-shadow: -2px -2px 2px blue;
+}
+
+.background {
+    margin: 0px;
+}
+  
+.transbox {
+    margin: 30px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.8;
+    border: 5px solid purple;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#band-text {
+    color: rgb(173, 72, 148);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#incorrect-text {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* .hangemanimg {
+    float: left;
+    bottom: 0px;
+} */
+
+/* .sticky-image-wrapper{
+    position: fixed;
+    bottom: 0;
+  hangemanimg  width: 30%;
+}
+
+.sticky-image-wrapper img{
+    display: table;
+    position: fixed;
+    margin: auto;
+} */
+
+fixed-row-bottom {
+     position: fixed; bottom: 0;
+    }
+
+    .sidebar {
+        float: center;
+        /* margin: 30px; */
+        background-color: black;
+        border: 1px solid black;
+        opacity: 0.8;
+        border: 5px solid purple;
+        filter: alpha(opacity=60);
+        font-size: 20px;
+        color: rgb(175, 39, 123);
+        font-weight: bold;
+
+    }
+
+    #GuessesLeft-Text {
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+    }
